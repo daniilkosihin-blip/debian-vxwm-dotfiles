@@ -19,7 +19,7 @@ cd ~/vxwm
 # Безопасное копирование вашего кастомного config.h
 if [ -f ~/debiandots/vxwmconf/config.h ]; then
     rm -f config.h
-    cp ~/debiandots/vxwmconf/config.h ~/vxwm/config.h
+    cp ~/debiandots/config.h ~/vxwm/config.h
     echo "-> Кастомный config.h для vxwm успешно применен."
 else
     echo "-> Внимание: Файл ~/debiandots/vxwmconf/config.h не найден. Будет собран конфиг по умолчанию."
